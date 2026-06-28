@@ -3,4 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/davidpla/davidcasal.uk/
     - /bin/cp -f index.html $DEPLOYPATH
-    - /bin/cp -f arrivals-teaser.mp4 $DEPLOYPATH
+    - /bin/rm -f $DEPLOYPATH/arrivals-teaser.mp4
